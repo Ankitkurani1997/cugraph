@@ -319,7 +319,8 @@ ConfigureTest(HITS_TEST link_analysis/hits_test.cpp)
 
 ###################################################################################################
 # - PAGERANK tests --------------------------------------------------------------------------------
-ConfigureTest(PAGERANK_TEST link_analysis/pagerank_test.cpp)
+ConfigureTest(PAGERANK link_analysis/pagerank_test.cpp)
+ConfigureTest(PR_TEST link_analysis/pr-test.cpp)
 
 ###################################################################################################
 # - KATZ_CENTRALITY tests -------------------------------------------------------------------------
